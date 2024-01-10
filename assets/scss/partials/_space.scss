@@ -1,0 +1,13 @@
+$p: 10px, 16px, 24px;
+$m: 10px, 16px, 24px;
+
+@each $single-size in $m {
+  .m-#{$single-size} {
+    margin: $single-size;
+  }
+}
+@each $single-size in $p {
+  .p-#{$single-size} {
+    padding: $single-size;
+  }
+}

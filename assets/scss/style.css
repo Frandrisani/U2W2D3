@@ -1,0 +1,241 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700&family=Lato:wght@100;300;400;700;900&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+nav {
+  background-color: #ffffff;
+}
+
+#headline {
+  background-color: #ca9bff;
+}
+
+a {
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+h1 {
+  color: #292929;
+  font-size: 3em;
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+}
+
+h4 {
+  color: #292929;
+  font-size: 2em;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+}
+
+p {
+  color: #292929;
+  font-size: 1em;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+.m-10px {
+  margin: 10px;
+}
+
+.m-16px {
+  margin: 16px;
+}
+
+.m-24px {
+  margin: 24px;
+}
+
+.p-10px {
+  padding: 10px;
+}
+
+.p-16px {
+  padding: 16px;
+}
+
+.p-24px {
+  padding: 24px;
+}
+
+#firstButton {
+  background-color: #0e6cff;
+}
+
+#secondButton {
+  background-color: #ff8700;
+}
+
+#thButton {
+  background-color: #4caf50;
+}
+
+#hero img {
+  border-radius: 5%;
+  box-shadow: 7px 6px 17px 6px rgba(0, 0, 0, 0.43);
+  border: solid 2px rgb(230, 192, 255);
+}
+
+#griglia img {
+  border-radius: 5%;
+  box-shadow: 7px 6px 17px 6px rgba(0, 0, 0, 0.43);
+  border: solid 2px rgb(230, 192, 255);
+}
+
+nav img {
+  border-radius: 5%;
+  box-shadow: 7px 6px 17px 6px rgba(0, 0, 0, 0.43);
+  border: solid 2px rgb(230, 192, 255);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+}
+
+#hero {
+  display: flex;
+}
+
+#griglia {
+  display: flex;
+}/*# sourceMappingURL=style.css.map */

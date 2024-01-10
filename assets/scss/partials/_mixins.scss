@@ -1,0 +1,39 @@
+@mixin dFlex {
+  display: flex;
+}
+
+@mixin dFlexSpaceBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin floating {
+  border-radius: 5%;
+  box-shadow: 7px 6px 17px 6px rgba(0, 0, 0, 0.43);
+  border: solid 2px rgb(230, 192, 255);
+}
+
+#hero img {
+  @include floating();
+}
+
+#griglia img {
+  @include floating();
+}
+nav img {
+  @include floating();
+}
+
+nav {
+  @include dFlexSpaceBetween();
+}
+ul {
+  @include dFlex();
+}
+#hero {
+  @include dFlex();
+}
+#griglia {
+  @include dFlex();
+}
